@@ -50,7 +50,7 @@ export default function ProtectedRoute({ children }) {
                     icon: <LogoutOutlined />,
                     onClick: () => {
                         localStorage.removeItem("token");
-                        dispatch(setUser(null));
+
 
                         navigate("/login");
                     },
