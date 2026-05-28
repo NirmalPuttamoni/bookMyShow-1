@@ -1,12 +1,22 @@
 const mongoose = require('mongoose');
+const dns = require('dns');
+
+dns.setServers(['8.8.8.8', '8.8.4.4']);
+dns.setDefaultResultOrder('ipv4first');
 
 async function connectDB(DB_URL) {
     try {
-        await mongoose.connect(DB_URL);
+        console.log("Connecting...");
+        
+        await mongoose.connect(DB_URL, {
+            family: 4
+        });
+
         console.log('Connection established!');
     }
     catch (err) {
-        console.err(err);
+        console.error(err);
     }
 }
+
 module.exports = connectDB;
