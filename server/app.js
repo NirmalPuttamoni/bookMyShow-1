@@ -19,6 +19,8 @@ connectDB(process.env.DB_URL);
 const app = express();
 const PORT = 8080;
 
+
+
 // const apiLimiter = rateLimit({
 //     windowMs: 15 * 60 * 1000, // 15 minutes
 //     max: 100,// Limit each IP to 100 requests per windowsMs
@@ -30,6 +32,7 @@ const PORT = 8080;
 app.use(helmet());
 app.use(express.json());//parse incoming json request
 app.use(cors());// allowing CORS requests
+
 
 
 //apply rate limiter middleware
