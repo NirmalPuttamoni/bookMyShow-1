@@ -237,6 +237,9 @@ npm start
 
 * Payment Page
   <img width="945" height="443" alt="image" src="https://github.com/user-attachments/assets/dd7c0dc4-79b4-4064-8f20-23206ea4c254" />
+  
+* Profile page
+  <img width="929" height="377" alt="image" src="https://github.com/user-attachments/assets/c51167f8-4270-4577-9488-6b57f16a701f" />
 
 * Admin Dashboard
   <img width="938" height="446" alt="image" src="https://github.com/user-attachments/assets/c1f6d721-65c0-49af-817e-4b5e456609a1" />
