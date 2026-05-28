@@ -230,10 +230,19 @@ npm start
   <img width="947" height="365" alt="image" src="https://github.com/user-attachments/assets/7d417c12-f527-456d-8b40-4c221fefe7a0" />
 
 * Movie Listings
+  <img width="933" height="461" alt="image" src="https://github.com/user-attachments/assets/d623d253-3992-4888-a021-2491cc6f20c7" />
+
 * Seat Selection
+  <img width="929" height="423" alt="image" src="https://github.com/user-attachments/assets/ce48a46d-e2c2-4d8a-adc7-45c74cc72a79" />
+
 * Payment Page
+  <img width="945" height="443" alt="image" src="https://github.com/user-attachments/assets/dd7c0dc4-79b4-4064-8f20-23206ea4c254" />
+
 * Admin Dashboard
+  <img width="938" height="446" alt="image" src="https://github.com/user-attachments/assets/c1f6d721-65c0-49af-817e-4b5e456609a1" />
+
 * Theater Dashboard
+  <img width="956" height="386" alt="image" src="https://github.com/user-attachments/assets/712c9d3a-88f4-48c0-88c3-bbecad2a4f60" />
 
 ---
 
