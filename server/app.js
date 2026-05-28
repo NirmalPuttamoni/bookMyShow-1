@@ -30,7 +30,12 @@ const PORT = 8080;
 
 //app.use(mongoSanitize());
 
-app.use(helmet());
+// app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: false,
+  })
+);
 app.use(express.json());//parse incoming json request
 app.use(cors());// allowing CORS requests
 
@@ -49,6 +54,9 @@ app.use('/api/theatre', theatreRoute);
 app.use('/api/show', showRoute);
 app.use('/api/booking', bookRoute);
 
+app.use((req, res) => {
+  res.sendFile(path.join(clientBuildPath, "index.html"));
+});
 
 
 app.listen(PORT, () => {
