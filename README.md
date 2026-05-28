@@ -227,6 +227,7 @@ npm start
 
 
 * Home Page
+  <img width="947" height="365" alt="image" src="https://github.com/user-attachments/assets/7d417c12-f527-456d-8b40-4c221fefe7a0" />
 
 * Movie Listings
 * Seat Selection
