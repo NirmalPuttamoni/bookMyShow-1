@@ -27,7 +27,7 @@ export default function ProtectedRoute({ children }) {
         },
         {
             key: "user",
-            label: `${user ? user.name : ''}`,
+            label: `${user ? user?.name : ''}`,
             icon: <UserOutlined />,
             children: [
                 {
@@ -35,11 +35,11 @@ export default function ProtectedRoute({ children }) {
                     label: "My Profile",
                     icon: <UserOutlined />,
                     onClick: () => {
-                        if (user.role === ROLE.ADMIN) {
+                        if (user?.role === ROLE.ADMIN) {
                             navigate("/admin");
-                        } else if (user.role === ROLE.PARTNER) {
+                        } else if (user?.role === ROLE.PARTNER) {
                             navigate("/partner");
-                        } else if (user.role === ROLE.USER) {
+                        } else if (user?.role === ROLE.USER) {
                             navigate("/profile");
                         }
                     }

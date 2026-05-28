@@ -2,6 +2,7 @@ const UserModel = require('../models/userModel');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const sendEmailHelper = require('../utils/sendEmailHelper');
+require('dotenv').config();
 
 const createUser = async function (req, res) {
   try {
